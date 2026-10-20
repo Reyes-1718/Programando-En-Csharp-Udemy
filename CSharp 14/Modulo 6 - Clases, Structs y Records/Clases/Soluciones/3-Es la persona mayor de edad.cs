@@ -1,4 +1,4 @@
-namespace Clases.Soluciones.Ejercicio3
+﻿namespace Clases.Soluciones.Ejercicio3
 {
     public class Persona
     {
@@ -11,12 +11,12 @@ namespace Clases.Soluciones.Ejercicio3
             var fechaActual = DateTime.Today;
             var edad = fechaActual.Year - FechaNacimiento.Year;
 
-            var fechaCumplea�osEsteA�o = new DateTime(fechaActual.Year,
+            var fechaCumpleañosEsteAño = new DateTime(fechaActual.Year,
                 FechaNacimiento.Month, FechaNacimiento.Day);
 
-            var yaCumpli�A�os = fechaCumplea�osEsteA�o <= fechaActual;
+            var yaCumplióAños = fechaCumpleañosEsteAño <= fechaActual;
 
-            if (!yaCumpli�A�os)
+            if (!yaCumplióAños)
             {
                 edad--;
             }

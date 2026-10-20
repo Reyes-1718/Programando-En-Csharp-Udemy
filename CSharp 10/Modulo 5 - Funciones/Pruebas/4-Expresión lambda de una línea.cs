@@ -1,24 +1,24 @@
-using Funciones.Ejercicios;
+ï»¿using Funciones.Ejercicios;
 using System.Reflection;
 
 namespace Pruebas
 {
     [TestClass]
-    public class ExpresiónLambdaDeUnaLíneaPruebas
+    public class ExpresiÃ³nLambdaDeUnaLÃ­neaPruebas
     {
         [DataRow(1, 2, 2)]
         [DataRow(10, 20, 200)]
         [DataTestMethod]
         public void RetornaElValorCorrecto(int a, int b, int esperado)
         {
-            var clase = new ExpresiónLambdaDeUnaLínea();
+            var clase = new ExpresiÃ³nLambdaDeUnaLÃ­nea();
 
             MethodInfo? metodo = clase.GetType().GetMethod("Multiplicar",
          BindingFlags.NonPublic | BindingFlags.Instance | BindingFlags.Public);
 
             if (metodo is null)
             {
-                Assert.Fail("Falta el método 'Multiplicar'");
+                Assert.Fail("Falta el mÃ©todo 'Multiplicar'");
             }
 
             var respuesta = metodo.Invoke(clase, new object[] { a, b })!.ToString()!;

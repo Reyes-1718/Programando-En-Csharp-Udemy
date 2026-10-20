@@ -1,4 +1,4 @@
-using Funciones.Ejercicios;
+ï»¿using Funciones.Ejercicios;
 using System.Reflection;
 using System.Text;
 
@@ -26,7 +26,7 @@ namespace Pruebas
 
                 if (metodo is null)
                 {
-                    Assert.Fail("Falta el método ImprimirSumaYMultiplicacion");
+                    Assert.Fail("Falta el mÃ©todo ImprimirSumaYMultiplicacion");
                 }
 
                 metodo.Invoke(clase, new object[] { a, b, veces });
@@ -38,7 +38,7 @@ namespace Pruebas
 
                 // Assert
                 var respuesta = sw.ToString();
-                Assert.IsTrue(respuesta == esperado, "Te recomiendo que hagas una app de consola y verifiques el resultado con tus propios ojos. Ya que al ser muchas líneas es difícil de mostrar por aquí.");
+                Assert.IsTrue(respuesta == esperado, "Te recomiendo que hagas una app de consola y verifiques el resultado con tus propios ojos. Ya que al ser muchas lÃ­neas es difÃ­cil de mostrar por aquÃ­.");
             }
 
 

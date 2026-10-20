@@ -1,4 +1,4 @@
-using Clases.Ejercicios.Ejercicio1;
+Ôªøusing Clases.Ejercicios.Ejercicio1;
 using System.Reflection;
 
 namespace Pruebas
@@ -11,7 +11,7 @@ namespace Pruebas
         {
             var clase = new Ejercicio();
             var nombre = "Felipe";
-            var apellido = "Gavil·n";
+            var apellido = "Gavil√°n";
             var fechaNacimiento = DateTime.Now;
             var tipo = clase.GetType();
 
@@ -19,7 +19,7 @@ namespace Pruebas
 
             if (metodo.Length == 0)
             {
-                Assert.Fail("Debes implementar el mÈtodo ConstruirPersona");
+                Assert.Fail("Debes implementar el m√©todo ConstruirPersona");
             }
 
             var respuesta = tipo.InvokeMember("ConstruirPersona",
@@ -28,7 +28,7 @@ namespace Pruebas
 
             if (respuesta is null)
             {
-                Assert.Fail("El mÈtodo debe retornar un valor");
+                Assert.Fail("El m√©todo debe retornar un valor");
             }
 
             ValidarCampo("_nombre", respuesta, nombre);

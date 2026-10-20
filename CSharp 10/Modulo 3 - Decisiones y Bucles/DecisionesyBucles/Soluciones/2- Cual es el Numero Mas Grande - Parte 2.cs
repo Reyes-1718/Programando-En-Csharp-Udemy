@@ -1,4 +1,4 @@
-namespace DecisionesyBucles.Soluciones
+ï»¿namespace DecisionesyBucles.Soluciones
 {
     public class NumeroMayorParte2
     {
@@ -6,7 +6,7 @@ namespace DecisionesyBucles.Soluciones
         {
             int resultado;
 
-            // Tu código debajo de esta línea
+            // Tu cÃ³digo debajo de esta lÃ­nea
             resultado = a > b ? a : b;
 
             return resultado;

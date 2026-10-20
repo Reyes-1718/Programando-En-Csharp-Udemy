@@ -1,4 +1,4 @@
-using Clases.Ejercicios.Ejercicio4;
+Ôªøusing Clases.Ejercicios.Ejercicio4;
 using System.Reflection;
 
 namespace Pruebas
@@ -10,7 +10,7 @@ namespace Pruebas
         public void Constructor2Params()
         {
             var nombre = "Felipe";
-            var apellido = "Gavil·n";
+            var apellido = "Gavil√°n";
 
             try
             {
@@ -23,7 +23,7 @@ namespace Pruebas
             }
             catch (MissingMethodException)
             {
-                Assert.Fail("No existe un constructor con dos par·metros string");
+                Assert.Fail("No existe un constructor con dos par√°metros string");
             }
         }
 
@@ -31,7 +31,7 @@ namespace Pruebas
         public void Constructor3Params()
         {
             var nombre = "Felipe";
-            var apellido = "Gavil·n";
+            var apellido = "Gavil√°n";
             var fechaNacimiento = DateTime.Today;
             try
             {
@@ -44,7 +44,7 @@ namespace Pruebas
             }
             catch (MissingMethodException)
             {
-                Assert.Fail("No existe un constructor con dos par·metros string y uno DateTime");
+                Assert.Fail("No existe un constructor con dos par√°metros string y uno DateTime");
             }
         }
     }

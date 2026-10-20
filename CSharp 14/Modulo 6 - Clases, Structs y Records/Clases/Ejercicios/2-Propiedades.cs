@@ -1,17 +1,17 @@
-namespace Clases.Ejercicios.Ejercicio2
+ï»¿namespace Clases.Ejercicios.Ejercicio2
 {
     /*
-    Debajo tenemos una clase Persona la cual tiene 3 campos públicos. Como vimos, no es buena idea exponer 
+    Debajo tenemos una clase Persona la cual tiene 3 campos pÃºblicos. Como vimos, no es buena idea exponer 
     la data de nuestras clases usando campos. Esto es lo que debes hacer:
 
-    1) Modifica la clase Persona para que ya no tenga los 3 campos, sino que tenga 3 propiedades públicas, 
+    1) Modifica la clase Persona para que ya no tenga los 3 campos, sino que tenga 3 propiedades pÃºblicas, 
     llamadas Nombre, Apellido y FechaNacimiento.
 
     2) Crea una nueva propiedad de solo-lectura, llamada NombreCompleto, la cual debe devolver la 
-    concatenación de Nombre y Apellido, separados por un espacio en blanco. Es decir, si Nombre = "Felipe", 
-    y Apellido = "Gavilán", entonces NombreCompleto = "Felipe Gavilán".
+    concatenaciÃ³n de Nombre y Apellido, separados por un espacio en blanco. Es decir, si Nombre = "Felipe", 
+    y Apellido = "GavilÃ¡n", entonces NombreCompleto = "Felipe GavilÃ¡n".
 
-    3) Modifica el método ConstruirPersona de la clase Ejercicio, para que utilice las propiedades que acabas de crear.
+    3) Modifica el mÃ©todo ConstruirPersona de la clase Ejercicio, para que utilice las propiedades que acabas de crear.
      */
 
     public class Persona

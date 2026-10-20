@@ -1,4 +1,4 @@
-using DecisionesyBucles.Ejercicios;
+﻿using DecisionesyBucles.Ejercicios;
 
 namespace Pruebas
 {
@@ -10,7 +10,7 @@ namespace Pruebas
         [DataRow(-7, -10, -7)]
         [DataRow(1, 0, 1)]
         [DataTestMethod]
-        public void ElM�todoDevuelveElValorCorrecto(int a, int b, int esperado)
+        public void ElMétodoDevuelveElValorCorrecto(int a, int b, int esperado)
         {
             var clase = new NumeroMayor();
             var respuesta = clase.DeterminarElNumeroMayor(a, b);

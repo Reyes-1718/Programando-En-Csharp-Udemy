@@ -1,4 +1,4 @@
-using Funciones.Ejercicios;
+ï»¿using Funciones.Ejercicios;
 using System.Reflection;
 
 namespace Pruebas
@@ -16,14 +16,14 @@ namespace Pruebas
 
             if (metodo is null)
             {
-                Assert.Fail("Falta el método 'Saludar'");
+                Assert.Fail("Falta el mÃ©todo 'Saludar'");
             }
 
             var respuestaObj = metodo.Invoke(clase, new object[] { "Felipe" });
 
             if (respuestaObj is null)
             {
-                Assert.Fail("El método debe devolver un valor");
+                Assert.Fail("El mÃ©todo debe devolver un valor");
             }
 
             var respuesta = respuestaObj.ToString();

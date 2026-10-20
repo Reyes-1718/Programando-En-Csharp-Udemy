@@ -1,8 +1,8 @@
-namespace Funciones.Soluciones
+ï»¿namespace Funciones.Soluciones
 {
-    public class ExpresiónLambdaDeUnaLínea
+    public class ExpresiÃ³nLambdaDeUnaLÃ­nea
     {
-        // Tu código debajo de esta línea
+        // Tu cÃ³digo debajo de esta lÃ­nea
         int Multiplicar(int a, int b) => a * b;
     }
 }

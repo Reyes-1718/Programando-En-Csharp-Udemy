@@ -1,4 +1,4 @@
-using Clases.Ejercicios.Ejercicio3;
+ï»¿using Clases.Ejercicios.Ejercicio3;
 using System.Reflection;
 
 namespace Pruebas
@@ -40,20 +40,20 @@ namespace Pruebas
 
             if (metodo is null)
             {
-                Assert.Fail("La clase debe contener el método 'EsMayorDeEdad'");
+                Assert.Fail("La clase debe contener el mÃ©todo 'EsMayorDeEdad'");
             }
 
             var respuestaObj = metodo.Invoke(persona, null);
 
             if (respuestaObj is null)
             {
-                Assert.Fail("El método debe devolver un valor");
+                Assert.Fail("El mÃ©todo debe devolver un valor");
             }
 
             var respuestaStr = respuestaObj.ToString()!;
             var esMayor = bool.Parse(respuestaStr);
 
-            var esONoEs = "Sí";
+            var esONoEs = "SÃ­";
 
             if (!respuestaEsperada)
             {

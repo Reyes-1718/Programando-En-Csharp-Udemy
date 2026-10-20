@@ -1,4 +1,4 @@
-using System;
+Ôªøusing System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,20 +7,20 @@ using System.Threading.Tasks;
 namespace Funciones.Ejercicios
 {
     /*
-    Implementa una funciÛn, llamada ObtenerMinMaxPromedio, que reciba un arreglo de enteros, y devuelva el valor m·ximo de dicho arreglo, 
-    el valor mÌnimo, y el valor promedio.
+    Implementa una funci√≥n, llamada ObtenerMinMaxPromedio, que reciba un arreglo de enteros, y devuelva el valor m√°ximo de dicho arreglo, 
+    el valor m√≠nimo, y el valor promedio.
 
-    Para este ejercicio, utilizaremos par·metros out para extraer los tres valores.
+    Para este ejercicio, utilizaremos par√°metros out para extraer los tres valores.
 
-    La funciÛn devolver· true si el arreglo de enteros tiene al menos un elemento, si tiene cero elementos devolver· false.
+    La funci√≥n devolver√° true si el arreglo de enteros tiene al menos un elemento, si tiene cero elementos devolver√° false.
 
-    El orden de los par·metros es: int[] numeros, int minimo, int maximo, double promedio
+    El orden de los par√°metros es: int[] numeros, int minimo, int maximo, double promedio
 
-    Nota: debes de colocar out en los par·metros adecuados.
+    Nota: debes de colocar out en los par√°metros adecuados.
      */
 
     public class MinMaxPromedio
     {
-        // Tu cÛdigo debajo de esta lÌnea
+        // Tu c√≥digo debajo de esta l√≠nea
     }
 }

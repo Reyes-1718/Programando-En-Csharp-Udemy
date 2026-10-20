@@ -1,4 +1,4 @@
-using DecisionesyBucles.Ejercicios;
+ï»¿using DecisionesyBucles.Ejercicios;
 using System.Text;
 
 namespace Pruebas
@@ -7,7 +7,7 @@ namespace Pruebas
     public class FizzBuzzPruebas
     {
         [TestMethod]
-        public void ElMétodoDevuelveElValorCorrecto()
+        public void ElMÃ©todoDevuelveElValorCorrecto()
         {
             int n = 30;
             using (StringWriter sw = new StringWriter())
@@ -18,7 +18,7 @@ namespace Pruebas
                 Console.SetOut(stdout);
                 var esperado = Fizzbuzz(n);
                 var respuesta = sw.ToString();
-                Assert.IsTrue(respuesta == esperado, "Te recomiendo que hagas una app de consola y verifiques el resultado con tus propios ojos. Ya que al ser muchas líneas es difícil de mostrar por aquí.");
+                Assert.IsTrue(respuesta == esperado, "Te recomiendo que hagas una app de consola y verifiques el resultado con tus propios ojos. Ya que al ser muchas lÃ­neas es difÃ­cil de mostrar por aquÃ­.");
             }
         }
 

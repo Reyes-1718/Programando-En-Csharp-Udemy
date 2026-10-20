@@ -1,0 +1,16 @@
+<Project>
+  <!--
+    Configuración común a todos los proyectos del repositorio.
+    Nullable e ImplicitUsings se dejan en cada .csproj: los generadores de código
+    (netstandard2.0, C# 7.3) no admiten esas características.
+  -->
+  <PropertyGroup>
+    <!-- Valor por defecto; Windows Forms (net10.0-windows) y los generadores (netstandard2.0) lo sobrescriben en su .csproj. -->
+    <TargetFramework>net10.0</TargetFramework>
+  </PropertyGroup>
+
+  <!-- Permite restaurar y compilar los proyectos net10.0-windows fuera de Windows (Linux/macOS). -->
+  <PropertyGroup Condition="!$([MSBuild]::IsOSPlatform('Windows'))">
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+  </PropertyGroup>
+</Project>

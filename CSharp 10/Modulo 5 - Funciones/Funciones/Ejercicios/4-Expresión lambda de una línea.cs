@@ -1,4 +1,4 @@
-using System;
+锘縰sing System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,14 +7,14 @@ using System.Threading.Tasks;
 namespace Funciones.Ejercicios
 {
     /*
-    Implemente una funci髇 Multiplicar, que reciba dos enteros y devuelva la multiplicaci髇 de estos. 
+    Implemente una funci贸n Multiplicar, que reciba dos enteros y devuelva la multiplicaci贸n de estos. 
 
-    Utilice una expresi髇 lambda, de modo que la soluci髇 sea de una sola l韓ea.
+    Utilice una expresi贸n lambda, de modo que la soluci贸n sea de una sola l铆nea.
      */
 
-    public class Expresi髇LambdaDeUnaL韓ea
+    public class Expresi贸nLambdaDeUnaL铆nea
     {
-        // Tu c骴igo debajo de esta l韓ea
+        // Tu c贸digo debajo de esta l铆nea
 
     }
 }

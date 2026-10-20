@@ -1,4 +1,4 @@
-using Variables.Ejercicios;
+﻿using Variables.Ejercicios;
 
 namespace Pruebas
 {
@@ -10,7 +10,7 @@ namespace Pruebas
         [DataRow(new int[] { -1, -2 }, -1)]
         [DataRow(new int[] { }, null)]
         [DataTestMethod]
-        public void ElM�todoDevuelveElValorCorrecto(int[] numeros, int? esperado)
+        public void ElMétodoDevuelveElValorCorrecto(int[] numeros, int? esperado)
         {
             var clase = new NumeroMayor();
             var respuesta = clase.DeterminarElNumeroMayor(numeros);

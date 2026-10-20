@@ -1,10 +1,10 @@
-namespace DecisionesyBucles.Soluciones
+ï»¿namespace DecisionesyBucles.Soluciones
 {
     public class FizzBuzz
     {
         public static void Realizar(int n)
         {
-            // Tu código debajo de esta línea
+            // Tu cÃ³digo debajo de esta lÃ­nea
             for (int i = 1; i <= n; i++)
             {
                 var mensaje = i.ToString();

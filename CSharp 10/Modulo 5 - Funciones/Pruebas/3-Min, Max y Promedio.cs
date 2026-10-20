@@ -1,4 +1,4 @@
-using Funciones.Ejercicios;
+Ôªøusing Funciones.Ejercicios;
 using System.Reflection;
 
 namespace Pruebas
@@ -21,7 +21,7 @@ namespace Pruebas
 
             if (metodo is null)
             {
-                Assert.Fail("Falta el mÈtodo 'ObtenerMinMaxPromedio'");
+                Assert.Fail("Falta el m√©todo 'ObtenerMinMaxPromedio'");
             }
 
             var args2 = new object[] { numeros, minimo, maximo, promedio };
@@ -35,8 +35,8 @@ namespace Pruebas
 
             if (boolEsperado)
             {
-                Assert.IsTrue(minimoEsperado == minimo, "Valor mÌnimo esperado: " + minimoEsperado + ". Respuesta obtenida: " + minimo);
-                Assert.IsTrue(minimoEsperado == minimo, "Valor m·ximo esperado: " + maximoEsperado + ". Respuesta obtenida: " + maximo);
+                Assert.IsTrue(minimoEsperado == minimo, "Valor m√≠nimo esperado: " + minimoEsperado + ". Respuesta obtenida: " + minimo);
+                Assert.IsTrue(minimoEsperado == minimo, "Valor m√°ximo esperado: " + maximoEsperado + ". Respuesta obtenida: " + maximo);
                 Assert.IsTrue(minimoEsperado == minimo, "Valor promedio esperado: " + promedioEsperado + ". Respuesta obtenida: " + promedio);
             }
         }

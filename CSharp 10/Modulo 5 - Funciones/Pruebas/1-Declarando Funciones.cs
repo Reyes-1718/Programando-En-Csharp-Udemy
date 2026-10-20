@@ -1,4 +1,4 @@
-using Funciones.Ejercicios;
+ï»¿using Funciones.Ejercicios;
 using System.Reflection;
 
 namespace Pruebas
@@ -16,14 +16,14 @@ namespace Pruebas
 
             if (metodo is null)
             {
-                Assert.Fail("La clase debe contener el método 'ObtenerDiaActual'");
+                Assert.Fail("La clase debe contener el mÃ©todo 'ObtenerDiaActual'");
             }
 
             var respuestaObj = metodo.Invoke(clase, null);
 
             if (respuestaObj is null)
             {
-                Assert.Fail("El método debe devolver un valor");
+                Assert.Fail("El mÃ©todo debe devolver un valor");
             }
 
             var respuestaStr = respuestaObj.ToString()!;

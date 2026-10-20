@@ -1,4 +1,4 @@
-using Clases.Ejercicios.Ejercicio2;
+﻿using Clases.Ejercicios.Ejercicio2;
 using System.Reflection;
 
 namespace Pruebas
@@ -11,7 +11,7 @@ namespace Pruebas
         {
             var clase = new Ejercicio();
             var nombre = "Felipe";
-            var apellido = "Gavil�n";
+            var apellido = "Gavilán";
             
             var fechaNacimiento = DateTime.Now;
 

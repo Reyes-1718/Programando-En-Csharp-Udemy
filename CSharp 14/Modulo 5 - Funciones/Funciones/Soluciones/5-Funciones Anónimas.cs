@@ -1,11 +1,11 @@
-namespace Funciones.Soluciones
+ï»¿namespace Funciones.Soluciones
 {
     public class FuncionesAnonimas
     {
 
         public void ImprimirSumaYMultiplicacion(int a, int b, int veces)
         {
-            // Tú codigo va debajo de aquí
+            // TÃº codigo va debajo de aquÃ­
 
             Func<int, int, int> sumar = (x, y) => x + y;
 
@@ -18,7 +18,7 @@ namespace Funciones.Soluciones
                 }
             };
 
-            // Tú codigo va encima de aquí
+            // TÃº codigo va encima de aquÃ­
 
             int suma = sumar(a, b);
             int multiplicacion = multiplicar(a, b);

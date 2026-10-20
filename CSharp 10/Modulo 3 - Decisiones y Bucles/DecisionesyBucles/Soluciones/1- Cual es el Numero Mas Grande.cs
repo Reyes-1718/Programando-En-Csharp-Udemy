@@ -1,11 +1,11 @@
-namespace DecisionesyBucles.Soluciones
+ï»¿namespace DecisionesyBucles.Soluciones
 {
     public class NumeroMayor
     {
        public int DeterminarElNumeroMayor(int a, int b){
             int resultado;
 
-            // Tu código debajo de esta línea
+            // Tu cÃ³digo debajo de esta lÃ­nea
             if (a > b)
             {
                 resultado = a;

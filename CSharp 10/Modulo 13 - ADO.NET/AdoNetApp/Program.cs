@@ -6,3 +6,4 @@ using Microsoft.Extensions.Hosting;
 using System.Data;
 
 // Puedes ver el código del curso en la carpeta "Codigo".
+Console.WriteLine("Hola, mundo");
